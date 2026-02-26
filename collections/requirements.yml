@@ -19,9 +19,9 @@ collections:
     version: "2.8.2"
   - name: infra.aap_configuration
     version: "3.4.1"
-  - name: osac.templates
-    type: git
-    source: https://github.com/osac-project/osac-templates
+  - type: git
+    name: https://github.com/adriengentil/osac-templates
+    version: "enable-vm-creation-on-remote"
   - name: osac.massopencloud
     type: git
     source: https://github.com/osac-project/osac-massopencloud-templates
